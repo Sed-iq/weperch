@@ -16,6 +16,8 @@ dependencies:
   shared_preferences: ^2.2.1
   cached_network_image: ^3.3.1
   http: ^1.1.0
+  carousel_slider: ^4.2.1
+  flutter_svg: ^2.0.9
 
   # After adding dependences please alert other developers to do the same before pushing to various branches
 
@@ -28,3 +30,19 @@ flutter:
   assets:
     - assets/images/
     - assets/fonts/
+  
+  fonts:
+    - family: ClashDisplay
+      fonts:
+        - asset: assets/fonts/ClashDisplay-ExtraLight.otf
+          weight: 100
+        - asset: assets/fonts/ClashDisplay-Light.otf
+          weight: 200
+        - asset: assets/fonts/ClashDisplay-Regular.otf
+          weight: 300
+        - asset: assets/fonts/ClashDisplay-Medium.otf
+          weight: 400
+        - asset: assets/fonts/ClashDisplay-SemiBold.otf
+          weight: 500
+        - asset: assets/fonts/ClashDisplay-Bold.otf
+          weight: 600
