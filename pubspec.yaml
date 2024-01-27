@@ -10,7 +10,10 @@ dependencies:
   flutter:
     sdk: flutter
   cupertino_icons: ^1.0.2
+<<<<<<< HEAD
   pinput: ^3.0.1
+=======
+>>>>>>> 36282542d0f91e72a6b8dfe5820f617d4f106c69
   flutter_animate: ^4.4.0
   icons_plus: 4.0.0
   fluttertoast: ^8.0.9
@@ -31,11 +34,19 @@ flutter:
   assets:
     - assets/images/
     - assets/fonts/
+<<<<<<< HEAD
 
   fonts:
     - family: ClashDisplay
       fonts:
         - asset: assets/fonts/ClashDisplay-Extralight.otf
+=======
+  
+  fonts:
+    - family: ClashDisplay
+      fonts:
+        - asset: assets/fonts/ClashDisplay-ExtraLight.otf
+>>>>>>> 36282542d0f91e72a6b8dfe5820f617d4f106c69
           weight: 100
         - asset: assets/fonts/ClashDisplay-Light.otf
           weight: 200
@@ -43,7 +54,11 @@ flutter:
           weight: 300
         - asset: assets/fonts/ClashDisplay-Medium.otf
           weight: 400
+<<<<<<< HEAD
         - asset: assets/fonts/ClashDisplay-Semibold.otf
+=======
+        - asset: assets/fonts/ClashDisplay-SemiBold.otf
+>>>>>>> 36282542d0f91e72a6b8dfe5820f617d4f106c69
           weight: 500
         - asset: assets/fonts/ClashDisplay-Bold.otf
           weight: 600

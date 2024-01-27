@@ -1,8 +1,11 @@
 import 'package:carousel_slider/carousel_slider.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
+<<<<<<< HEAD
 import 'package:weperch/screens/signin.dart';
 import 'package:weperch/screens/signup.dart';
+=======
+>>>>>>> 36282542d0f91e72a6b8dfe5820f617d4f106c69
 
 import '../components/landing_page_first.dart';
 import '../utils/fonts.dart';
@@ -230,6 +233,7 @@ class _LandingPageState extends State<LandingPage> {
                             child: SizedBox(
                               height: screenHeight * 0.06,
                               child: OutlinedButton(
+<<<<<<< HEAD
                                 onPressed: () {
                                   Navigator.push(
                                       context,
@@ -237,6 +241,9 @@ class _LandingPageState extends State<LandingPage> {
                                           builder: (context) =>
                                               const SignIn()));
                                 },
+=======
+                                onPressed: () {},
+>>>>>>> 36282542d0f91e72a6b8dfe5820f617d4f106c69
                                 style: ButtonStyle(
                                   side: MaterialStateProperty.all(
                                     const BorderSide(color: Colors.white),
@@ -261,6 +268,7 @@ class _LandingPageState extends State<LandingPage> {
                             child: SizedBox(
                               height: screenHeight * 0.06,
                               child: TextButton(
+<<<<<<< HEAD
                                 onPressed: () {
                                   // Linker
                                   Navigator.push(
@@ -269,6 +277,9 @@ class _LandingPageState extends State<LandingPage> {
                                           builder: (context) =>
                                               const Signup()));
                                 },
+=======
+                                onPressed: () {},
+>>>>>>> 36282542d0f91e72a6b8dfe5820f617d4f106c69
                                 style: ButtonStyle(
                                   backgroundColor:
                                       MaterialStateProperty.all(Colors.white),

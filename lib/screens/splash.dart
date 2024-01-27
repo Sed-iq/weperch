@@ -51,6 +51,10 @@ class _SplashState extends State<Splash> with SingleTickerProviderStateMixin {
         child: ScaleTransition(
           scale: _animation,
           child: Hero(
+<<<<<<< HEAD
+=======
+            
+>>>>>>> 36282542d0f91e72a6b8dfe5820f617d4f106c69
             tag: "logoHero",
             child: Image.asset(
               "$imageLink/logo.png",
