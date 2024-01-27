@@ -1,0 +1,1 @@
+const imageLink = "assets/images";
