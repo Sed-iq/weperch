@@ -43,7 +43,7 @@ class _SplashState extends State<Splash> with SingleTickerProviderStateMixin {
   @override
   Widget build(BuildContext context) {
     var screenWidth = MediaQuery.of(context).size.width;
-    var screenHeight = MediaQuery.of(context).size.height;
+    // var screenHeight = MediaQuery.of(context).size.height;
 
     return Scaffold(
       backgroundColor: Colors.black,
