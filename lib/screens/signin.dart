@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:weperch/components/input.dart';
 import 'package:weperch/components/txt.dart';
 import 'package:weperch/screens/forgot_password.dart';
+import 'package:weperch/screens/home.dart';
 import 'package:weperch/screens/signup.dart';
 import 'package:weperch/utils/colors.dart';
 import 'package:weperch/utils/fonts.dart';
@@ -105,10 +106,10 @@ class _SignInState extends State<SignIn> {
                               fixedSize: Size.fromWidth(
                                   MediaQuery.of(context).size.width)),
                           onPressed: () {
-                            // Navigator.push(
-                            //     context,
-                            //     MaterialPageRoute(
-                            //         builder: (context) => const Step2()));
+                            Navigator.push(
+                                context,
+                                MaterialPageRoute(
+                                    builder: (context) => const HomePage()));
                           },
                           child: const Txt(
                             text: "Continue",

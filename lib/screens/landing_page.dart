@@ -5,7 +5,6 @@ import 'package:weperch/screens/signin.dart';
 import 'package:weperch/screens/signup.dart';
 
 import '../components/landing_page_first.dart';
-// import '../utils/fonts.dart';
 import '../utils/image_link.dart';
 
 class LandingPage extends StatefulWidget {
