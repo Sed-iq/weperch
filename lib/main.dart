@@ -4,10 +4,10 @@ import "package:weperch/screens/splash.dart";
 
 void main() {
   runApp(const MaterialApp(
-      title: "Weperch",
-      color: Colors.black,
-      debugShowCheckedModeBanner: false,
-      home: HomePage()
-      // home: Splash(), // Testing
-      ));
+    title: "Weperch",
+    color: Colors.black,
+
+    debugShowCheckedModeBanner: false,
+    home: HomePage(), // Testing
+  ));
 }
